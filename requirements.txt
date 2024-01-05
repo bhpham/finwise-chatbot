@@ -1,0 +1,6 @@
+Flask
+Jinja2
+pytest
+pyyaml
+google-cloud-aiplatform
+python-dotenv
