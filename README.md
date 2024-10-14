@@ -39,14 +39,14 @@ To set up the project locally, follow these steps:
    cd finwise-chatbot
 
 2. Install dependencies: Make sure you have the required Python packages installed. You can create a virtual environment if desired.
-   ``bash
+   ```bash
    pip install -r requirements.txt
 
 4. Configure API Keys:
 Create API keys in GCP Vertex AI or Service Account keys.
 Add your key to the .env file in the root directory. 
 5. Run the applications
-   ``bash
+   ```bash
    python3 app.py
 
 Usage
@@ -65,12 +65,12 @@ Push to the branch (git push origin feature/YourFeature).
 Create a pull request.
 License
 This project is licensed under the MIT License.
+   ```bash
+   ### Instructions for Use:
+   1. Replace `https://github.com/yourusername/finwise-chatbot.git` with the actual URL of your repository.
+   2. Save this content in a file named `README.md` in the root of your GitHub repository.
 
-### Instructions for Use:
-1. Replace `https://github.com/yourusername/finwise-chatbot.git` with the actual URL of your repository.
-2. Save this content in a file named `README.md` in the root of your GitHub repository.
-
-This structured format will help users understand your project quickly and guide them through installation, usage, and contribution! Let me know if you need further assistance!
+   This structured format will help users understand your project quickly and guide them through installation, usage, and contribution! Let me know if    you need further assistance!
 
 
 ### Notes to run application on local machine:
