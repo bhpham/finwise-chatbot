@@ -39,12 +39,15 @@ To set up the project locally, follow these steps:
    cd finwise-chatbot
 
 2. Install dependencies: Make sure you have the required Python packages installed. You can create a virtual environment if desired.
+   ``bash
    pip install -r requirements.txt
-3. Configure API Keys:
+
+4. Configure API Keys:
 Create API keys in GCP Vertex AI or Service Account keys.
 Add your key to the .env file in the root directory. 
-4. Run the applications
-python3 app.py
+5. Run the applications
+   ``bash
+   python3 app.py
 
 Usage
 Open your browser and navigate to http://localhost:5000 to access the chatbot interface.
