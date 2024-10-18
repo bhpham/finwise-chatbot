@@ -65,12 +65,6 @@ Push to the branch (git push origin feature/YourFeature).
 Create a pull request.
 License
 This project is licensed under the MIT License.
-   ```bash
-   ### Instructions for Use:
-   1. Replace `https://github.com/yourusername/finwise-chatbot.git` with the actual URL of your repository.
-   2. Save this content in a file named `README.md` in the root of your GitHub repository.
-
-   This structured format will help users understand your project quickly and guide them through installation, usage, and contribution! Let me know if    you need further assistance!
 
 
 ### Notes to run application on local machine:
