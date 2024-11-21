@@ -1,6 +1,7 @@
-from flask import Flask, render_template, request
+from flask import Flask, jsonify, render_template, request
 from genai_chat import GenAiChat
 from dotenv import load_dotenv
+from google_cloud_utils import initialize_google_cloud
 import os
 
 def create_app():
@@ -9,6 +10,11 @@ def create_app():
     
     chat_history = []
     
+    @app.route('/')
+    def index():
+        bucket_names = initialize_google_cloud()
+        return jsonify(bucket_names)
+
     @app.route("/", methods=["GET", "POST"])
     def chat():
         prompt = ""
