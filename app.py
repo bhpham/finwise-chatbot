@@ -33,10 +33,13 @@ def create_app():
 
     return app
 
-if __name__ == "__main__":
-    app = create_app()
-    app.run(
-        debug=True,
-        host="0.0.0.0",
-        port=int(os.environ.get("PORT", int(os.getenv("PORT")))),
-    )
+# This is where the 'app' instance should be exposed
+app = create_app()
+
+# if __name__ == "__main__":
+#     app = create_app()
+#     app.run(
+#         debug=True,
+#         host="0.0.0.0",
+#         port=int(os.environ.get("PORT", int(os.getenv("PORT")))),
+#     )
