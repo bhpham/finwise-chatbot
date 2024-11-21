@@ -29,6 +29,10 @@
 - **AI Technology:** Generative AI SDK
 - **Cloud Platform:** GCP Vertex AI
 
+## Demo
+![PDF Preview](https://github.com/bhpham/finwise-chatbot/blob/main/demo.pdf)
+
+
 ## Installation
 
 To set up the project locally, follow these steps:
@@ -45,13 +49,14 @@ To set up the project locally, follow these steps:
 4. Configure API Keys:
 Create API keys in GCP Vertex AI or Service Account keys.
 Add your key to the .env file in the root directory. 
-5. Run the applications
+5. Run the applications on localhost:
    ```bash
    python3 app.py
 
 Usage
 Open your browser and navigate to http://localhost:5000 to access the chatbot interface.
 Interact with the chatbot by asking questions related to financial advice.
+
 Deployment
 Finwise will soon be deployed on RapidAPI for broader access and outsourcing usage. Stay tuned for updates on deployment and access details.
 
