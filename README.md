@@ -30,7 +30,7 @@
 - **Cloud Platform:** GCP Vertex AI
 
 ## Demo
-![PDF Preview](https://github.com/bhpham/finwise-chatbot/blob/main/demo.pdf)
+[View PDF](https://github.com/bhpham/finwise-chatbot/blob/main/demo.pdf)
 
 
 ## Installation
