@@ -3,4 +3,5 @@ venv
 .env
 __pycache__
 finwise-chatbot-bcdb8ada6c53.json
-
+finwise-chatbot-bcdb8ada6c53.json.b64
+config-vars.env
